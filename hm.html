@@ -1,0 +1,42 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Form Demo</title>
+</head>
+<body>
+	<h1>Html Structure - Form</h1>
+	<form action="login.jsp" method="post"
+		enctype="application/x-www-form-urlencoded">
+		
+		<p><b> UserName</b> <input name=“name” type = text maxlength=30 size =30 /></p>
+		<p><b> Password:</b><input name=“password” type = password maxlength=30 size =30 /></p>
+		<p><input type="submit" value="Login" />
+			<input type="reset" value="Reset" />
+		</p>
+		
+		<p>
+			<b>Charge Card:</b> 
+			<input name="cc" value="visa" type="radio" />VISA
+			<input name="cc" value="mc" type="radio" />Master Card 
+			<input name="cc" value="amex" type="radio" />American Express 
+		</p>
+
+			Select the subjects to enroll?
+		<p>
+			<input type="checkbox" name="ws" value="ws" /> Web Security <br> 
+			<input type="checkbox" name="unity" value="unity" /> Unity <br> 
+			<input type="checkbox" name="ml" value="ml" /> ML <br> 
+			<input type="checkbox" name="salesforce" value="salesforce" /> Salesforce
+		</p>
+	
+
+
+
+
+
+
+		
+
+	</form>
+</body>
+</html>
