@@ -9,8 +9,28 @@ body {
     background: gray;
 }
 
+div{
+    width: 250px;
+    height:666px;
 
+}
+div a{
+    text-decoration: none;
+    color:white;
+    padding:0px;
+    padding-right: 100px;
+}
 
-
-
+div ul li{
+    list-style-type: none;
+    display: block;
+    padding: 15px;
+    font-family: fantasy;
+    font-size: 15px;
+    border-bottom: 1px solid;
+    text-decoration: none;
+}
+div li:hover{
+    background: dimgray;color: #333;}
+}
 
