@@ -1,7 +1,16 @@
-body{
+*{
     margin: 0;
     padding: 0;
     background-color: gray;
     background-position: center;
     
 }
+body {
+    background: gray;
+}
+
+
+
+
+
+
