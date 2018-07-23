@@ -9,7 +9,7 @@
     <div class="simple-form">
         <p align="center">
 <h1>Login</h1>
-<form id="login" action="login.html" method="get">
+<form>
     <center>
     <table>
 <tr>
@@ -24,7 +24,7 @@
 </tr>
 <tr>
         <td colspan="1"></td>
-<td><input type="submit" value="login as admin" name="sub" id="submit">
+<td><input type="submit" value="login as admin" onclick="check(this.form)" name="sub" id="submit">
 </td>
 
 </tr>
@@ -32,8 +32,20 @@
     </table>
             
     </center>
-    
     </form>
+<script language="javascript">
+    function check(form)
+    {
+        if(form.uname.value=="shazia"&&form.pswd.value=="1234")
+            {
+                window.open('adminaccount.html')
+            }
+        else{
+            alert("invalid login")
+        }
+    }
+    
+        </script>
 
         </div>
        </center>
